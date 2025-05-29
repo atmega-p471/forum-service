@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/forum/forum-service/internal/delivery/ws"
-	"github.com/forum/forum-service/internal/domain"
+	"github.com/atmega-p471/forum-service/internal/delivery/ws"
+	"github.com/atmega-p471/forum-service/internal/domain"
 )
 
 // Handler handles HTTP requests

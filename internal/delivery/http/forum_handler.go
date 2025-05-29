@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/forum/forum-service/internal/domain"
+	"github.com/atmega-p471/forum-service/internal/domain"
 	"github.com/gorilla/mux"
 )
 

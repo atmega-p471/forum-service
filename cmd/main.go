@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"database/sql"
-	"log"
 	"net"
 	"net/http"
 	"os"
@@ -22,6 +21,7 @@ import (
 	httpSwagger "github.com/swaggo/http-swagger"
 
 	_ "github.com/atmega-p471/forum-service/docs"
+	_ "github.com/mattn/go-sqlite3"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"

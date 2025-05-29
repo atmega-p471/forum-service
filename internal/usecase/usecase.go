@@ -3,11 +3,11 @@ package usecase
 import (
 	"time"
 
-	"github.com/forum/forum-service/internal/config"
-	"github.com/forum/forum-service/internal/delivery/grpc/client"
-	"github.com/forum/forum-service/internal/delivery/ws"
-	"github.com/forum/forum-service/internal/domain"
-	"github.com/forum/forum-service/internal/repository"
+	"github.com/atmega-p471/forum-service/internal/config"
+	"github.com/atmega-p471/forum-service/internal/delivery/grpc/client"
+	"github.com/atmega-p471/forum-service/internal/delivery/ws"
+	"github.com/atmega-p471/forum-service/internal/domain"
+	"github.com/atmega-p471/forum-service/internal/repository"
 )
 
 // UseCase implements domain.MessageUseCase

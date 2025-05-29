@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/forum/forum-service/internal/domain"
-	"github.com/forum/forum-service/proto/forum"
+	"github.com/atmega-p471/forum-service/internal/domain"
+	"github.com/atmega-p471/forum-service/proto/forum"
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

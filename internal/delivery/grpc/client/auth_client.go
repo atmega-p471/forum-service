@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	"github.com/forum/auth-service/proto/auth"
-	"github.com/forum/forum-service/internal/domain"
+	"github.com/atmega-p471/forum-auth-service/proto/auth"
+	"github.com/atmega-p471/forum-service/internal/domain"
 	"google.golang.org/grpc"
 )
 

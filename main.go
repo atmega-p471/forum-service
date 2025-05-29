@@ -8,13 +8,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/forum/forum-service/internal/config"
-	"github.com/forum/forum-service/internal/delivery/grpc"
-	"github.com/forum/forum-service/internal/delivery/grpc/client"
-	httpHandler "github.com/forum/forum-service/internal/delivery/http"
-	"github.com/forum/forum-service/internal/delivery/ws"
-	"github.com/forum/forum-service/internal/repository"
-	"github.com/forum/forum-service/internal/usecase"
+	"github.com/atmega-p471/forum-service/internal/config"
+	"github.com/atmega-p471/forum-service/internal/delivery/grpc"
+	"github.com/atmega-p471/forum-service/internal/delivery/grpc/client"
+	httpHandler "github.com/atmega-p471/forum-service/internal/delivery/http"
+	"github.com/atmega-p471/forum-service/internal/delivery/ws"
+	"github.com/atmega-p471/forum-service/internal/repository"
+	"github.com/atmega-p471/forum-service/internal/usecase"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/rs/zerolog"
 	httpSwagger "github.com/swaggo/http-swagger"
@@ -22,7 +22,7 @@ import (
 	"google.golang.org/grpc/reflection"
 
 	// Swagger docs
-	_ "github.com/forum/forum-service/docs"
+	_ "github.com/atmega-p471/forum-service/docs"
 )
 
 // @title Forum Service API

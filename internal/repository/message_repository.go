@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/forum/forum-service/internal/domain"
+	"github.com/atmega-p471/forum-service/internal/domain"
 )
 
 // MessageRepository is a message repository

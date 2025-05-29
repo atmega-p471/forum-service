@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/forum/forum-service/internal/domain"
-	auth_proto "github.com/forum/proto/auth"
+	"github.com/atmega-p471/forum-service/internal/domain"
+	auth_proto "github.com/atmega-p471/forum-proto/auth"
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

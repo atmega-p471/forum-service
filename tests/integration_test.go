@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/forum/forum-service/internal/domain"
-	"github.com/forum/forum-service/internal/repository"
+	"github.com/atmega-p471/forum-service/internal/domain"
+	"github.com/atmega-p471/forum-service/internal/repository"
 	_ "github.com/mattn/go-sqlite3"
 )
 
