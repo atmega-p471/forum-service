@@ -1,9 +1,9 @@
-module github.com/forum/forum-service
+module github.com/atmega-p471/forum-service
 
 go 1.21
 
 require (
-	github.com/forum/proto v0.0.0
+	github.com/atmega-p471/forum-proto v0.1.0
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/websocket v1.5.0
 	github.com/mattn/go-sqlite3 v1.14.28
@@ -37,4 +37,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/forum/proto => ../proto
+// Временно используем локальный replace для разработки
+// После того как GitHub обновит индексы, можно будет убрать эту строку
+replace github.com/atmega-p471/forum-proto => ../proto
